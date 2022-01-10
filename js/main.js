@@ -361,7 +361,7 @@ $(document).ready(function () {
                 function inc1() {
                     let num1 = $("#oneCount").text();
                     if (num1 < 200) {
-                        num1++;
+                        num1;
                         clearInterval(inc1)
                     }
                     $("#oneCount").text(num1)
@@ -372,7 +372,7 @@ $(document).ready(function () {
                 function inc2() {
                     let num2 = $("#twoCount").text();
                     if (num2 < 200) {
-                        num2++;
+                        num2;
                         clearInterval(inc2)
                     }
                     $("#twoCount").text(num2)
@@ -383,7 +383,7 @@ $(document).ready(function () {
                 function inc3() {
                     let num3 = $("#threeCount").text();
                     if (num3 < 200) {
-                        num3++;
+                        num3;
                         clearInterval(inc3)
                     }
                     $("#threeCount").text(num3)
@@ -395,7 +395,7 @@ $(document).ready(function () {
                 function inc4() {
                     let num4 = $("#fourCount").text();
                     if (num4 < 200) {
-                        num4++;
+                        num4;
                         clearInterval(inc4)
                     }
                     $("#fourCount").text(num4)
